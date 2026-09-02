@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -i \"s|const EXT_PATH = .*|const EXT_PATH = path.join\\(__dirname, 'ext-copy'\\);|\" test.js check2.js)",
+      "Bash(rm -rf chrome-profile chrome-profile2)",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --version)",
+      "Bash(tasklist //FI \"IMAGENAME eq chrome.exe\")",
+      "Bash(rm -rf chrome-profile-manual)",
+      "Bash(node manual-launch.js)",
+      "Bash(curl -s http://127.0.0.1:9333/json/version)"
+    ]
+  }
+}

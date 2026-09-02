@@ -1,0 +1,31 @@
+# --- Gizli anahtarlar (ASLA GitHub'a gitmez) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crx
+
+# --- Bagimliliklar (baska makinede yeniden kurulur) ---
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# --- Derleme ve cache ciktilari ---
+build/
+dist/
+.next/
+*.tsbuildinfo
+.pytest_cache/
+
+# --- Veri tabanlari ve loglar ---
+*.db
+*.sqlite3
+*.log
+
+# --- Isletim sistemi cop dosyalari ---
+.DS_Store
+Thumbs.db
+desktop.ini

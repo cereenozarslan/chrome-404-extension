@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"/c/Users/Özarslan/AppData/Local/ms-playwright/\" 2>&1)",
+      "Read(//c/Users/Özarslan/AppData/Local/**)",
+      "Bash(mkdir -p \"/c/Users/ZARSLA~1/AppData/Local/Temp/claude/c--Users--zarslan-OneDrive-PROJELER-VS-Code-deneme-projesi/395f2e4f-73f8-42cb-93af-ca2e5b40b06f/scratchpad/ext-test\")",
+      "Read(//c/Users/ZARSLA~1/AppData/Local/Temp/claude/c--Users--zarslan-OneDrive-PROJELER-VS-Code-deneme-projesi/395f2e4f-73f8-42cb-93af-ca2e5b40b06f/scratchpad/**)",
+      "Bash(npm init *)",
+      "Bash(PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 npm install playwright)",
+      "Bash(ls \"/c/Program Files/Google/Chrome/Application/\" 2>&1 | grep -i chrome.exe)",
+      "Read(//c/Program Files/Google/Chrome/Application//**)",
+      "PowerShell(Get-Process chrome -ErrorAction SilentlyContinue)",
+      "Bash(npm ls *)",
+      "Bash(npm config *)",
+      "Bash(node -e \"console.log\\(typeof WebSocket\\)\")"
+    ]
+  }
+}
